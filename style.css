@@ -1451,3 +1451,552 @@ body {
 .women-intro-content {
   flex: 1;
 }
+/* GOSHALA PAGE */
+
+.goshala-hero {
+  padding: 180px 8% 100px;
+
+  text-align: center;
+
+  background: #F7F4ED;
+}
+
+.goshala-hero h1 {
+  font-size: 70px;
+
+  margin-bottom: 20px;
+
+  color: #1B4332;
+}
+
+.goshala-hero p {
+  font-size: 22px;
+
+  color: #666;
+}
+
+/* CONTENT */
+
+.goshala-content {
+  padding: 100px 8%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 60px;
+}
+
+.goshala-image {
+  flex: 1;
+}
+
+.goshala-image img {
+  width: 100%;
+
+  border-radius: 25px;
+}
+
+.goshala-text {
+  flex: 1;
+}
+
+.goshala-text h2 {
+  font-size: 45px;
+
+  margin-bottom: 25px;
+
+  color: #1B4332;
+}
+
+.goshala-text p {
+  color: #666;
+
+  line-height: 1.9;
+
+  margin-bottom: 20px;
+}
+
+/* HISTORY */
+
+.goshala-history {
+  padding: 100px 8%;
+
+  background: #F7F4ED;
+}
+
+.history-content {
+  max-width: 1000px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.history-content h2 {
+  font-size: 50px;
+
+  margin-bottom: 30px;
+
+  color: #1B4332;
+}
+
+.history-content p {
+  color: #666;
+
+  line-height: 2;
+
+  font-size: 18px;
+
+  margin-bottom: 25px;
+}
+
+/* SERVICES */
+
+.goshala-services {
+  padding: 100px 8%;
+
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 30px;
+}
+
+.goshala-box {
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+  transition: 0.3s;
+}
+
+.goshala-box:hover {
+  transform: translateY(-5px);
+}
+
+.goshala-box h3 {
+  margin-bottom: 20px;
+
+  color: #1B4332;
+}
+
+.goshala-box p {
+  color: #666;
+
+  line-height: 1.8;
+}
+
+/* VISITOR SECTION */
+
+.visitor-section {
+  padding: 100px 8%;
+}
+
+.visitor-content {
+  max-width: 1000px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.visitor-content h2 {
+  font-size: 50px;
+
+  margin-bottom: 30px;
+
+  color: #1B4332;
+}
+
+.visitor-content p {
+  color: #666;
+
+  line-height: 2;
+
+  font-size: 18px;
+
+  margin-bottom: 25px;
+}
+
+/* GODAAN */
+
+.godaan-section {
+  padding: 100px 8%;
+
+  background: #F7F4ED;
+
+  text-align: center;
+}
+
+.godaan-section h2 {
+  font-size: 50px;
+
+  margin-bottom: 30px;
+
+  color: #1B4332;
+}
+
+.godaan-section p {
+  max-width: 900px;
+
+  margin: auto;
+
+  color: #666;
+
+  line-height: 2;
+
+  font-size: 18px;
+}
+
+/* MOBILE */
+
+@media(max-width: 900px) {
+
+  .goshala-content {
+    flex-direction: column;
+  }
+
+  .goshala-services {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media(max-width: 600px) {
+
+  .goshala-hero h1,
+  .history-content h2,
+  .visitor-content h2,
+  .godaan-section h2,
+  .goshala-text h2 {
+    font-size: 38px;
+  }
+
+}
+.donate-cow-btn {
+  display: inline-block;
+
+  margin-top: 35px;
+
+  background: #1B4332;
+
+  color: white;
+
+  padding: 14px 35px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.donate-cow-btn:hover {
+  background: #D4A373;
+
+  transform: translateY(-3px);
+}
+/* CSR PAGE */
+
+.csr-hero {
+  padding: 180px 8% 100px;
+
+  text-align: center;
+
+  background: #F7F4ED;
+}
+
+.csr-hero h1 {
+  font-size: 70px;
+
+  margin-bottom: 20px;
+
+  color: #1B4332;
+}
+
+.csr-hero p {
+  font-size: 22px;
+
+  color: #666;
+}
+
+/* CONTENT */
+
+.csr-content {
+  padding: 100px 8%;
+}
+
+.csr-text {
+  max-width: 1000px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.csr-text h2 {
+  font-size: 50px;
+
+  margin-bottom: 35px;
+
+  color: #1B4332;
+}
+
+.csr-text p {
+  color: #666;
+
+  line-height: 2;
+
+  font-size: 18px;
+
+  margin-bottom: 25px;
+}
+
+/* GALLERY */
+
+.partner-gallery {
+  padding: 0 8% 100px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 30px;
+}
+
+.partner-card img {
+  width: 100%;
+
+  height: 100px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  transition: 0.3s;
+}
+
+.partner-card img:hover {
+  transform: scale(1.03);
+}
+
+/* QUOTE */
+
+.csr-quote {
+  padding: 100px 8%;
+
+  background: #F7F4ED;
+
+  text-align: center;
+}
+
+.csr-quote h2 {
+  font-size: 45px;
+
+  color: #1B4332;
+}
+
+/* MOBILE */
+
+@media(max-width: 900px) {
+
+  .partner-gallery {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media(max-width: 600px) {
+
+  .csr-hero h1,
+  .csr-text h2,
+  .csr-quote h2 {
+    font-size: 38px;
+  }
+
+}
+/* CONSERVATION PAGE */
+
+.conservation-hero {
+  padding: 180px 8% 100px;
+
+  text-align: center;
+
+  background: #F7F4ED;
+}
+
+.conservation-hero h1 {
+  font-size: 70px;
+
+  margin-bottom: 20px;
+
+  color: #1B4332;
+}
+
+.conservation-hero p {
+  font-size: 22px;
+
+  color: #666;
+}
+
+/* CONTENT */
+
+.conservation-content {
+  padding: 100px 8%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 60px;
+}
+
+.conservation-image {
+  flex: 1;
+}
+
+.conservation-image img {
+  width: 100%;
+
+  border-radius: 25px;
+}
+
+.conservation-text {
+  flex: 1;
+}
+
+.conservation-text h2 {
+  font-size: 45px;
+
+  margin-bottom: 25px;
+
+  color: #1B4332;
+}
+
+.conservation-text p {
+  color: #666;
+
+  line-height: 1.9;
+
+  margin-bottom: 20px;
+}
+
+/* CONCERNS */
+
+.concerns-section {
+  padding: 100px 8%;
+
+  background: #F7F4ED;
+
+  text-align: center;
+}
+
+.concerns-section h2 {
+  font-size: 50px;
+
+  margin-bottom: 50px;
+
+  color: #1B4332;
+}
+
+.concerns-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 30px;
+}
+
+.concern-box {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 18px;
+
+  font-weight: 600;
+
+  color: #1B4332;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* INITIATIVES */
+
+.initiative-section,
+.organic-section {
+  padding: 100px 8%;
+}
+
+.initiative-content,
+.organic-content {
+  max-width: 1000px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.initiative-content h2,
+.organic-content h2,
+.eco-quote h2 {
+  font-size: 50px;
+
+  margin-bottom: 30px;
+
+  color: #1B4332;
+}
+
+.initiative-content p,
+.organic-content p {
+  color: #666;
+
+  line-height: 2;
+
+  font-size: 18px;
+
+  margin-bottom: 25px;
+}
+
+/* QUOTE */
+
+.eco-quote {
+  padding: 100px 8%;
+
+  background: #F7F4ED;
+
+  text-align: center;
+}
+
+/* MOBILE */
+
+@media(max-width: 900px) {
+
+  .conservation-content {
+    flex-direction: column;
+  }
+
+  .concerns-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media(max-width: 600px) {
+
+  .conservation-hero h1,
+  .conservation-text h2,
+  .concerns-section h2,
+  .initiative-content h2,
+  .organic-content h2 {
+    font-size: 38px;
+  }
+
+}
